@@ -21,9 +21,9 @@ This project implements a CPU simulator that can parse and execute a subset of R
 ## Project Plan
 
 ### Phase 1 – Core Simulator
-- [x] Define register file & memory model  
-- [x] Implement parser for instruction file  
-- [x] Implement instruction decoder & executor  
+- [ ] Define register file & memory model  
+- [ ] Implement parser for instruction file  
+- [ ] Implement instruction decoder & executor  
 - [ ] Add basic pipeline (fetch/decode/execute stages)  
 - [ ] Add performance counters (cycle count, IPC)  
 
