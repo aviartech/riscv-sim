@@ -1,17 +1,17 @@
 #ifndef RISCV_SIM_ISA_CONTROLLER_HPP
 #define RISCV_SIM_ISA_CONTROLLER_HPP
 
-#include <iostream>
 #include "RegisterFile.hpp"
+#include <iostream>
 
 namespace riscv_sim {
 
 class ISAController {
 private:
-    RegisterFile rf;
+  RegisterFile rf;
 
 public:
-    void execute();
+  void execute();
 };
 
 } // namespace riscv_sim
