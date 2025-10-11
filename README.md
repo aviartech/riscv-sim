@@ -40,3 +40,20 @@ This project implements a CPU simulator that can parse and execute a subset of R
 - [ ] Display pipeline stages per cycle (like a Gantt chart)  
 - [ ] Export performance data (CSV or JSON) for analysis  
 
+## Building
+### Clone the repo
+```bash
+git clone https://github.com/your-username/riscv-sim.git
+cd riscv-sim
+```
+
+### Create a build directory
+```bash
+mkdir build && cd build
+```
+
+### Configure and build
+```bash
+cmake ..
+cmake --build .
+```
